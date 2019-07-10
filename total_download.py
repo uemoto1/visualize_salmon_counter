@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- Coding: utf-8 -*-
 import pandas as pd
 import matplotlib.pyplot as plt
 import re
