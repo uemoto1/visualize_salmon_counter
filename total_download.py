@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 # -*- Coding: utf-8 -*-
-import pandas as pd
-import matplotlib.pyplot as plt
 import re
+import pandas as pd
+import matplotlib
+import matplotlib.pyplot as plt
+
+matplotlib.use('Agg')
 
 # Datafile
 df = pd.read_csv("./salmon_download.csv")
