@@ -3,9 +3,9 @@
 import re
 import pandas as pd
 import matplotlib
-import matplotlib.pyplot as plt
+matplotlib.use('pdf')
 
-matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 # Datafile
 df = pd.read_csv("./salmon_download.csv")
